@@ -12,6 +12,9 @@
 	"developer": "Shahar",
 	"description": "Race a translucent ghost of your best run on every level.",
 	"tags": ["gameplay", "enhancement", "offline"],
+	"links": {
+		"source": "https://github.com/shaharkolberg-code/practice-ghost"
+	},
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	},
