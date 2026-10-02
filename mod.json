@@ -1,0 +1,43 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "shahar.practice-ghost",
+	"name": "Practice Ghost",
+	"version": "v1.0.0",
+	"developer": "Shahar",
+	"description": "Race a translucent ghost of your best run on every level.",
+	"tags": ["gameplay", "enhancement", "offline"],
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"default": true,
+			"name": "Show Ghost",
+			"description": "Show the ghost of your best run during normal-mode attempts."
+		},
+		"opacity": {
+			"type": "int",
+			"default": 110,
+			"min": 20,
+			"max": 255,
+			"name": "Ghost Opacity",
+			"control": {
+				"slider": true,
+				"arrows": false
+			}
+		},
+		"ghost-color": {
+			"type": "color",
+			"default": "#96DCFF",
+			"name": "Ghost Color",
+			"description": "Tint applied to the ghost icon."
+		}
+	}
+}
